@@ -1,6 +1,6 @@
 import React from "react";
 import { MapPin, Phone, Mail, Ambulance, Globe } from "lucide-react";
-import Reveal from "../components/Reveal";
+import Reveal from "./Reveal";
 
 export default function Contact() {
   return (
