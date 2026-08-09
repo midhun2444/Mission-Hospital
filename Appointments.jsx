@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Calendar } from "lucide-react";
-import GlassCard from "../components/GlassCard";
-import StatusBadge from "../components/StatusBadge";
-import CancelConfirmModal from "../components/CancelConfirmModal";
-import RescheduleModal from "../components/RescheduleModal";
-import { getPatientAppointments, cancelAppointment, rescheduleAppointment } from "../services/api";
+import GlassCard from "./GlassCard";
+import StatusBadge from "./StatusBadge";
+import CancelConfirmModal from "./CancelConfirmModal";
+import RescheduleModal from "./RescheduleModal";
+import { getPatientAppointments, cancelAppointment, rescheduleAppointment } from "./api";
 
 const FILTERS = ["all", "upcoming", "completed", "cancelled", "expired"];
 
