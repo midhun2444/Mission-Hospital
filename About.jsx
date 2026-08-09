@@ -1,5 +1,5 @@
 import React from "react";
-import Reveal from "../components/Reveal";
+import Reveal from "./Reveal";
 
 const VALUES = [
   { title: "Compassion", desc: "Every patient interaction starts with empathy." },
