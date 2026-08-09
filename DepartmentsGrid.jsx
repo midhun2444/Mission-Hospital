@@ -3,7 +3,7 @@ import * as Icons from "lucide-react";
 import { ArrowRight } from "lucide-react";
 import GlassCard from "./GlassCard";
 import Reveal from "./Reveal";
-import { getDepartments } from "../services/api";
+import { getDepartments } from "./api";
 
 export default function DepartmentsGrid({ onPick }) {
   const [departments, setDepartments] = useState([]);
