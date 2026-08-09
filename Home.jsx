@@ -2,9 +2,9 @@ import React from "react";
 import * as Icons from "lucide-react";
 import { ShieldCheck, ArrowRight, Sparkles, Activity, Ambulance, Pill, FlaskConical, Star, Stethoscope } from "lucide-react";
 import GlassCard from "./GlassCard";
-import Reveal from "../components/Reveal";
-import AnimatedCounter from "../components/AnimatedCounter";
-import DepartmentsGrid from "../components/DepartmentsGrid";
+import Reveal from "./Reveal";
+import AnimatedCounter from "./AnimatedCounter";
+import DepartmentsGrid from "./DepartmentsGrid";
 import { magneticMove, magneticReset, parallaxMove } from "../utils/interactions";
 import { STATS, TESTIMONIALS } from "../data/mockData";
 
