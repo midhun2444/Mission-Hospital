@@ -7,7 +7,7 @@ import GlassCard from "./GlassCard";
 import {
   getDepartments, getDoctors, lookupPatientByFileNumber, registerPatient,
   getAvailability, bookAppointment,
-} from "../services/api";
+} from "./api";
 
 const STEPS = ["Visit history", "Your details", "Select doctor", "Choose token", "Confirmation"];
 
