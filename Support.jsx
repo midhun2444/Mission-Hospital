@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Phone, MessageCircle, Mail, ChevronDown } from "lucide-react";
-import Reveal from "../components/Reveal";
+import Reveal from "./Reveal";
 
 const FAQS = [
   { q: "How do I reschedule an appointment?", a: "Go to My Appointments, select the upcoming visit, and choose Reschedule." },
