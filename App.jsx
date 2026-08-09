@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MessageCircle } from "lucide-react";
 import Header from "./Header";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 import MobileBottomNav from "./components/MobileBottomNav";
 import BookingModal from "./components/BookingModal";
 import AIAssistant from "./components/AIAssistant";
