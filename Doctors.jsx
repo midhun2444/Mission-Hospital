@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Search, Building2, Star, ChevronDown } from "lucide-react";
-import GlassCard from "../components/GlassCard";
-import Reveal from "../components/Reveal";
-import { getDoctors, getDepartments } from "../services/api";
+import GlassCard from "./GlassCard";
+import Reveal from "./Reveal";
+import { getDoctors, getDepartments } from "./api";
 
 export default function Doctors({ onBook, presetDept }) {
   const [query, setQuery] = useState("");
