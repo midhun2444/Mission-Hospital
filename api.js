@@ -3,7 +3,7 @@
 // the frontend stays fully functional even without a running backend —
 // remove the try/catch fallbacks once you're ready to require the API.
 
-import * as mock from "../data/mockData";
+import * as mock from "./mockData";
 
 const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
 
