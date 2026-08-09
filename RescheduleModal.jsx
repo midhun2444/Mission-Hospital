@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { X, Calendar } from "lucide-react";
 import GlassCard from "./GlassCard";
-import { getAvailability } from "../services/api";
+import { getAvailability } from "./api";
 
 export default function RescheduleModal({ appointment, onDismiss, onConfirmed }) {
   const [date, setDate] = useState("");
