@@ -1,7 +1,7 @@
 import React from "react";
 import * as Icons from "lucide-react";
 import { ShieldCheck, ArrowRight, Sparkles, Activity, Ambulance, Pill, FlaskConical, Star, Stethoscope } from "lucide-react";
-import GlassCard from "../components/GlassCard";
+import GlassCard from "./GlassCard";
 import Reveal from "../components/Reveal";
 import AnimatedCounter from "../components/AnimatedCounter";
 import DepartmentsGrid from "../components/DepartmentsGrid";
