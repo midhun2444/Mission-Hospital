@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { X, Send, Sparkles, Maximize2, Minimize2 } from "lucide-react";
-import { askAI } from "../services/api";
+import { askAI } from "./api";
 
 const SUGGESTIONS = ["Hospital timings?", "Cardiologist availability", "Book with orthopedics", "Where is the hospital?"];
 
