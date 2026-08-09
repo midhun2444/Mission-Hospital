@@ -6,7 +6,7 @@ import Reveal from "./Reveal";
 import AnimatedCounter from "./AnimatedCounter";
 import DepartmentsGrid from "./DepartmentsGrid";
 import { magneticMove, magneticReset, parallaxMove } from "./interactions";
-import { STATS, TESTIMONIALS } from "../data/mockData";
+import { STATS, TESTIMONIALS } from "./mockData";
 
 function Hero({ openBooking, openAI }) {
   return (
