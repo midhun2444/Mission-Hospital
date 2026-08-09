@@ -6,12 +6,12 @@ import MobileBottomNav from "./MobileBottomNav";
 import BookingModal from "./BookingModal";
 import AIAssistant from "./AIAssistant";
 import DepartmentsGrid from "./DepartmentsGrid";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Doctors from "./pages/Doctors";
-import Contact from "./pages/Contact";
-import Appointments from "./pages/Appointments";
-import Support from "./pages/Support";
+import Home from "./Home";
+import About from "./About";
+import Doctors from "./Doctors";
+import Contact from "./Contact";
+import Appointments from "./Appointments";
+import Support from "./Support";
 
 export default function App() {
   const [page, setPage] = useState("home");
